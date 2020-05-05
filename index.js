@@ -16919,11 +16919,11 @@ p.nominalBounds = new cjs.Rectangle(-14.5,-16,29,32);
 	// Whitebox
 	this.shape_107 = new cjs.Shape();
 	this.shape_107.graphics.f().s("#000000").ss(0.8).p("A3qhoMAvVAAAIAADRMgvVAAAg");
-	this.shape_107.setTransform(540.8136,1843.6348,3.1211,3.9657);
+	this.shape_107.setTransform(540.8136,1843.4365,3.1211,3.9657);
 
 	this.shape_108 = new cjs.Shape();
 	this.shape_108.graphics.f("#FFFFFF").s().p("A3qBpIAAjRMAvVAAAIAADRg");
-	this.shape_108.setTransform(540.8136,1843.6348,3.1211,3.9657);
+	this.shape_108.setTransform(540.8136,1843.4365,3.1211,3.9657);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_108},{t:this.shape_107}]},1).wait(1));
 
@@ -16950,17 +16950,17 @@ p.nominalBounds = new cjs.Rectangle(-14.5,-16,29,32);
 
 	this.Full_btn = new lib.ResetButton();
 	this.Full_btn.name = "Full_btn";
-	this.Full_btn.setTransform(1003.55,1424.45,3.3543,3.3543);
+	this.Full_btn.setTransform(1000.35,1395.65,3.3543,3.3543);
 	new cjs.ButtonHelper(this.Full_btn, 0, 1, 2, false, new lib.ResetButton(), 3);
 
 	this.Zoomout_btn = new lib.MinusButton();
 	this.Zoomout_btn.name = "Zoomout_btn";
-	this.Zoomout_btn.setTransform(1003.55,1737.35,3.3543,3.3543);
+	this.Zoomout_btn.setTransform(1000.35,1708.55,3.3543,3.3543);
 	new cjs.ButtonHelper(this.Zoomout_btn, 0, 1, 2, false, new lib.MinusButton(), 3);
 
 	this.Zoomin_btn = new lib.PlusButton();
 	this.Zoomin_btn.name = "Zoomin_btn";
-	this.Zoomin_btn.setTransform(1003.55,1583.4,3.3543,3.3543);
+	this.Zoomin_btn.setTransform(1000.35,1554.6,3.3543,3.3543);
 	new cjs.ButtonHelper(this.Zoomin_btn, 0, 1, 2, false, new lib.PlusButton(), 3);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.Zoomin_btn},{t:this.Zoomout_btn},{t:this.Full_btn},{t:this.PanR_btn},{t:this.PanL_btn},{t:this.PanD_btn},{t:this.PanU_btn}]},1).wait(1));
