@@ -16928,11 +16928,11 @@ p.nominalBounds = new cjs.Rectangle(-14.5,-16,29,32);
 	// Whitebox
 	this.shape_107 = new cjs.Shape();
 	this.shape_107.graphics.f().s("#000000").ss(0.8).p("A3qhoMAvVAAAIAADRMgvVAAAg");
-	this.shape_107.setTransform(540.8136,1842.2468,3.1211,3.9657);
+	this.shape_107.setTransform(540.8136,1842.0485,3.1211,3.9657);
 
 	this.shape_108 = new cjs.Shape();
 	this.shape_108.graphics.f("#FFFFFF").s().p("A3qBpIAAjRMAvVAAAIAADRg");
-	this.shape_108.setTransform(540.8136,1842.2468,3.1211,3.9657);
+	this.shape_108.setTransform(540.8136,1842.0485,3.1211,3.9657);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_108},{t:this.shape_107}]},1).wait(1));
 
